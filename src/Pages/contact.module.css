@@ -1,0 +1,116 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container2{
+    width: 85%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+
+}
+.divParant{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    
+}
+.leftDiv{
+    width: 20%;
+    height: 90%;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-right: 30px;
+    
+}
+.leftUp{
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+.rightDiv{
+    height: 90%;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 80%;
+}
+.rightUp{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 30px;
+}
+.rightMiddle{
+    width: 100%;
+    height: 50%;
+}
+.smallInbut{
+    width: 30%;
+    height: 40px;
+    margin-right: 15px;
+    border: none;
+    background-color: #f0f0f0;
+    padding-left: 5px;
+    border-radius: 3px;
+}
+.smallInbut:hover{
+    border: 2px solid lightgrey;
+    cursor: pointer;
+}
+.smallInbut:focus{
+    border: 2px solid lightgrey;
+}
+.yourMassage{
+    width: 98%;
+    height: 100%;
+    background-color: #f0f0f0;
+    border: none;
+    padding-left: 5px;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+.yourMassage:hover{
+    border: 2px solid lightgrey;
+    cursor: pointer;
+}
+.yourMassage:focus{
+    border: 2px solid lightgrey;
+}
+.rightButton{
+    height: 30%;
+    display: flex;
+    justify-content: end;
+
+}
+.sendMessage{
+    height: 55%;
+    width: 20%;
+    margin-top: 60px;
+    border: none;
+    color: white;
+    background-color: #B40404;
+    border-radius: 3px;
+}
+.sendMessage:hover{
+    background-color: white;
+    color: #B40404;
+    border: 2px solid #B40404;
+    cursor: pointer;
+}
+.reset{
+    width: 10%;
+    margin-right: 10px;
+    font-size: 15px;
+    height: 30%;
+    margin-top: 60px;
+    border: none;
+    background-color: white;
+}
+.reset:hover{
+    color: #eb0b0b;
+    cursor: pointer;
+
+}

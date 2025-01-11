@@ -1,0 +1,108 @@
+.container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: sans-serif;
+    border-bottom: 1px solid lightgrey;
+    margin: 0;
+}
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.first{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 800;
+}
+.second{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 17px;
+}
+.second div:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.second div.active{
+    border-bottom: 2px solid black;
+}
+.third{
+    width: 25%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.thirdIn{
+    width: 70%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+.thirdIn:hover{
+    border: 1px solid orchid;
+    cursor: pointer;
+}
+.thirdIn:focus{
+    background-color: #f0f0f0;
+    border: 1px solid orchid;
+    outline: none;
+}
+.forth{
+    display: flex;
+    width: 20%;
+    gap: 10px;
+    justify-content: flex-start;
+    font-size: 20px;
+    position: relative;
+}
+.forth svg{
+    cursor: pointer;
+}
+.activeIcon {
+    color: red; 
+}
+
+.profileDropdown {
+    position: absolute;
+    top: 40px; 
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    border-radius: 5px;
+    z-index: 10;  
+    padding: 10px 0;
+    display: block; 
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.profileDropdown ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profileDropdown li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white
+}
+
+.profileDropdown li:hover {
+    background-color: #f0f0f0;
+    color: black;
+}

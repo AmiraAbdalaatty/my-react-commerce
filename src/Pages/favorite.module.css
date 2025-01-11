@@ -1,0 +1,91 @@
+.containerofcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    height: 100%;
+    padding-bottom: 200px;
+    margin-top: 100px; 
+}
+.container{
+    width: 85%;
+}
+.fav{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.cardPhotoHolder {
+    width: 250px;
+    height: 200px;
+    background-color: rgb(243, 241, 241);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+.cardPhoto{
+    width: 100%;
+}
+.cardName{
+    margin: 15px;
+}
+.disParant{
+    margin: 15px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.afterDis{
+    color: #B40404;
+}
+.peforeDis{
+    text-decoration: line-through;
+}
+.button{
+    width: 25px;
+    height: 50px;
+    background-color: #B40404;
+    border-radius: 5px;
+    border: none;
+    margin-right: 30px;
+}
+.today{
+    margin-top: 15px;
+    font-family: sans-serif;
+    color: #B40404;
+    font-weight: 600;
+    font-size: 20px;
+}
+.just{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.justLeft{
+    display: flex;
+    width: 50%;
+}
+.justRight{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
+.see{
+    width: 30%; 
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.see:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.try{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}

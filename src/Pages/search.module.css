@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+.try{
+    display: flex;
+    overflow-x: auto;    
+    width: 80%;
+    gap: 50px;
+   margin-bottom: 40px;
+}
+.container2{
+    width: 100%;
+}
+.cardParant {
+    display: flex;
+    flex-direction: column; 
+}
+.cardPhotoHolder {
+    width: 250px;
+    height: 200px;
+    background-color: rgb(243, 241, 241);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.cardPhoto{
+    width: 100%;
+}
+.cardName{
+    margin: 15px;
+}
+.disParant{
+    margin: 15px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.afterDis{
+    color: #B40404;
+}
+.peforeDis{
+    text-decoration: line-through;
+}

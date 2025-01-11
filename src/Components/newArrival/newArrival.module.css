@@ -1,0 +1,135 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    height: 100%;
+    margin-bottom: 200px;
+}
+.container2{
+    width: 85%;
+}
+.buttonParant{
+    width: 85%;
+    display: flex;
+    align-items: flex-start;  
+    margin-bottom: 40px; 
+}
+.button{
+    width: 25px;
+    height: 50px;
+    background-color: #B40404;
+    border-radius: 5px;
+    border: none;
+    margin-right: 30px;
+    
+}
+.today{
+    margin-top: 15px;
+    font-family: sans-serif;
+    color: #B40404;
+    font-weight: 600;
+    font-size: 20px;
+}
+.flashParant{
+    width: 85%;
+    display: flex;
+    align-items: flex-start;  
+    margin-bottom: 40px; 
+}
+.flash{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.divParant{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.leftItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../../pics/ps5-cover.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+    height: 600px;
+    
+}
+.rightContainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.topRightItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../../pics/womenCollction-cover.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+    
+}
+.bottomRightItems{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+} 
+.bottomItem1{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../../pics/speakers-cover.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+}
+.bottomItem2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../../pics/perfume-cover.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+}
+.cardName{
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+.cardDescription{
+    margin-left: 20px;
+    width: 300px;
+}
+.cardButton{
+    margin: 20px;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-bottom: 3px solid white;
+    padding: 10px; 
+}
+.cardButton:hover{
+    background-color: gray;
+    border-bottom: none;
+    cursor: pointer;
+}
+    

@@ -1,0 +1,25 @@
+.container{
+    font-family: sans-serif;
+    width: 25%;
+}
+.sidePar{
+    width: 100%;
+    border-right: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.header{
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.list{
+    font-weight: 300;
+    line-height: 30px;
+    margin-right: 40px;
+
+}
+ul{
+    list-style: none;
+}

@@ -1,0 +1,16 @@
+.panner{
+    width: 75%;
+    margin: 0 auto;
+}
+.pannerPhoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.pannerPhoto img {
+    height: auto; 
+}

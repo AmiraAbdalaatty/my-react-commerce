@@ -1,0 +1,103 @@
+.containerofcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.container{
+    width: 85%;
+}
+.buttonParant{
+    width: 85%;
+    display: flex;
+    align-items: flex-start;  
+    margin-bottom: 40px; 
+}
+.button{
+    width: 25px;
+    height: 50px;
+    background-color: #B40404;
+    border-radius: 5px;
+    border: none;
+    margin-right: 30px;
+    
+}
+.today{
+    margin-top: 15px;
+    font-family: sans-serif;
+    color: #B40404;
+    font-weight: 600;
+    font-size: 20px;
+}
+.viewAll{
+    display: flex;
+    justify-content: space-between;
+}
+.flash{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.viewAllButton{
+    background-color: #B40404;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.viewAllButton:hover{
+        background-color: #eb0b0b;
+        cursor: pointer;
+}
+.toButtons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px; 
+    width: 100%;
+    margin-bottom: 30px;
+}
+.buttons{
+    border: none;
+    border-radius: 50%;
+    padding: 17px;
+    background-color: rgb(239, 236, 236);
+}
+.try{
+    display: flex;   
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+.cardParant {
+    display: flex;
+    flex-direction: column; 
+}
+.cardPhotoHolder {
+    width: 250px;
+    height: 200px;
+    background-color: rgb(243, 241, 241);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.cardPhoto{
+    width: 100%;
+}
+.cardName{
+    margin: 15px;
+}
+.disParant{
+    margin: 15px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.afterDis{
+    color: #B40404;
+}
+.peforeDis{
+    text-decoration: line-through;
+}
