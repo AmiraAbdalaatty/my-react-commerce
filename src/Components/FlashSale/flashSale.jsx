@@ -1,4 +1,4 @@
-import styles from './FlashSale.module.css'
+import styles from './flashSale.module.css'
 import { FaArrowRight } from "react-icons/fa6";
 import { FaArrowLeft } from "react-icons/fa";
 import { useContext } from 'react';

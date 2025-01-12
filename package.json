@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mustafa.github.io/my-react-commerce",
-  "scripts": {
+  "homepage": "https://AmiraAbdalaatty.github.io/my-react-commerce/",  "scripts": {
     "start": "concurrently \"npm run dev\" \"npm run server\"",
     "dev": "vite",
     "build": "vite build",
