@@ -37,11 +37,10 @@ export default function App() {
   return(
     <BrowserRouter basename="/my-react-commerce">
 
-    <Router>
       <div>
 
         <Header1 />
-        <Header2 />
+        <Header2 /> 
       <Routes>
         <Route path='/' element={<HomePage />}/>
         <Route path='/contact' element={<Contact/>}/>
@@ -60,7 +59,6 @@ export default function App() {
       <Footer />
       
       </div>
-    </Router>
     </BrowserRouter>
   )
 }
