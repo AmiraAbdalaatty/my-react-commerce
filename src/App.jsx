@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 import HomePage from "./Pages/homePage";
 import Contact from "./Pages/contact";
 import About from "./Pages/about";
@@ -35,6 +35,8 @@ export default function App() {
   },[])
   
   return(
+    <BrowserRouter basename="/my-react-commerce">
+
     <Router>
       <div>
 
@@ -59,5 +61,6 @@ export default function App() {
       
       </div>
     </Router>
+    </BrowserRouter>
   )
 }
