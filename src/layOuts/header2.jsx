@@ -56,7 +56,7 @@ export default function Header2(){
                 onClick={()=>Navigate('/profile')}>Profile</div>}
 
                 {!user ? <div onClick={()=>Navigate('/signup')} >
-                    Sign up
+                    Sign upppp
                 </div> : null}
             </div>
 
